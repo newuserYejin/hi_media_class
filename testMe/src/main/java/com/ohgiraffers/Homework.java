@@ -8,7 +8,7 @@ public class Homework {
         int a = 20;
         int b = 30;
 
-        System.out.println("--출력 예시--");
+        System.out.println("\n"+"--출력 예시--");
         System.out.println("더하기 결과 :"+ (a+b));
         System.out.println("빼기 결과 :"+ (a-b));
         System.out.println("곱하기 결과 :"+ (a*b));
