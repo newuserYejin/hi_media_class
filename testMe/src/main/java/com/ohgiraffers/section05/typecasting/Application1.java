@@ -19,8 +19,15 @@ public class Application1 {
         double re = fnum + dnum;
 
         // 정수와 실수의 연산은 실수로 결과가 반영된다.
+        
+        // 문자형은 int 형으로 자동 형변환 된다.
+        char cs = 'a';
+        int charNum = cs;
 
+        System.out.println("charNum = " + charNum);
 
+        // 논리형은 형변환 규칙에서 제외된다.
+        boolean isTrue = true;
 
     }
 }

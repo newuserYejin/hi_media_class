@@ -29,8 +29,7 @@ public class Application1 {
         
         float c = (float) a / b;            // 강제 형변환을 미리하지 않고 결과를 받았을 경우 이미 int와 int의 결가가 float에 저장되는 형태로 진행되기 때문에
                                             // float형에 저장했지만 int식의 결과가 출력된다. => 즉, 미리 형변화을 해야 원하는 형태의 결과를 출력 가능하다.
-        System.out.println("c = " + c);
 
-        
+        System.out.println("c = " + c);
     }
 }
