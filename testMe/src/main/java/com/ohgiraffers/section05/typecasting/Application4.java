@@ -18,5 +18,14 @@ public class Application4 {
         int cellHeight = (int) height;
 
         System.out.println("cellHeight = " + cellHeight);
+
+        double kuk = 80.5;
+        double math = 50.6;
+        double eng = 70.8;
+
+        System.out.println("--출력 예시--");
+        System.out.println("총점 : " + (int)(kuk + math + eng));
+        System.out.println("평균 : " + (int)(kuk + math + eng) / 3);
+
     }
 }
