@@ -32,5 +32,7 @@ public class Application1 {
         System.out.println("num4은 " + result6);
         System.out.println("num5은 " + result7);
 
+        System.out.println(false&&false);
+
     }
 }
