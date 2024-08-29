@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.method;
 
+import static com.ohgiraffers.section01.method.Calculator.avg;
+
 public class Application9 {
     public static void main(String[] args) {
         
@@ -18,5 +20,6 @@ public class Application9 {
 
         // static이 있는 메소드는 new를 통한 선언으로 호출하는 것이 아닌 해당 클래스명.메소드()로 바로 호출한다.
         System.out.println("avg = " + Calculator.avg(5,4));
+        System.out.println("import avg = "+avg(2,9));
     }
 }
