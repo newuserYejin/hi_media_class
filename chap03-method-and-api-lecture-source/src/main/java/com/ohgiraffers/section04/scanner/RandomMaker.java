@@ -3,7 +3,11 @@ package com.ohgiraffers.section04.scanner;
 public class RandomMaker {
 
     public int randomNumber(int min, int max){
-        return (int)(Math.random() * (max-min+1) + min);
+        if (min > max){
+            return (int)(Math.random() * (min-max+1) + max);
+        } else{
+            return (int)(Math.random() * (max-min+1) + min);
+        }
     }
 
     public String randomUpperAlphabet(int length){
