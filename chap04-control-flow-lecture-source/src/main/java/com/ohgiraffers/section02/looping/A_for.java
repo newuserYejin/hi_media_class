@@ -58,4 +58,47 @@ public class A_for {
 
         System.out.println("총합 = " + sum);
     }
+
+    // 숫자 2개를 입력 받아 작은 수에서 큰수까지의 합 구하기
+    // 단, 두 수는 같지 않다.
+    public void testForExample4(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("첫번째 정수 입력: ");
+        int num1 = sc.nextInt();
+        System.out.print("두번째 정수 입력: ");
+        int num2 = sc.nextInt();
+
+        int sum = 0;
+
+        if (num1 > num2){
+            for (int i = num2;i<=num1;i++){
+                sum += i;
+            }
+        } else {
+            for (int i = num1;i<=num2;i++){
+                sum += i;
+            }
+        }
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+        System.out.println("sum = " + sum);
+    }
+
+    public void gugudan(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("출력하실 단을 입력해주세요: ");
+        int num = sc.nextInt();
+
+        if (num < 1){
+            System.out.println("구구단은 1단부터 가능합니다.");
+        } else {
+            for (int i = 1;i<=9;i++){
+                System.out.println(num + " * " + i + " = " + num *i);
+            }
+        }
+
+    }
+
 }
