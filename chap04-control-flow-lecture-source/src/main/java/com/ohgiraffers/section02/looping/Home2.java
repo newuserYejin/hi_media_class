@@ -148,6 +148,11 @@ public class Home2 {
         System.out.print("미소 점수 : ");
         int num3 = sc.nextInt();
 
+        if ( (num1 + num2 + num3) /3 >= 60 && num1 >= 40 && num2 >= 40 && num3 >= 40){
+            System.out.println("합격입니다!");
+            return;
+        }
+
         if ( (num1 + num2 + num3) /3 < 60){
             System.out.println("평균점수 미달로 불합격입니다.");
         }
@@ -162,10 +167,6 @@ public class Home2 {
 
         if(num3 <40){
             System.out.println("미소 항목의 점수 미달로 불합격 입니다.");
-        }
-
-        if ( (num1 + num2 + num3) /3 >= 60 && num1 >= 40 && num2 >= 40 && num3 >= 40){
-            System.out.println("합격입니다!");
         }
     }
 
@@ -285,6 +286,5 @@ public class Home2 {
         }
 
     }
-
 
 }
