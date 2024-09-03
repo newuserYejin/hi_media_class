@@ -21,9 +21,34 @@ public class C_while {
         // charAt() : 해당 인덱스 위치의 문자를 char형으로 반환해준다.
 
         for (int i =0; i < str.length();i++){
-            System.out.println(str.charAt(i));
+            System.out.println(i+"번째 "+str.charAt(i));
         }
 
+        System.out.println("=================");
+
+        int i = 0;
+
+        while (i < str.length()){
+            System.out.println(i+"번째 "+str.charAt(i));
+            i++;
+        }
+
+    }
+
+    public void whileExample2(){
+        int dan = 2;
+
+        while (dan < 10){
+            int num = 2;
+
+            while (num < 10){
+                System.out.println(dan + " * " + num + " = " + dan*num);
+                num++;
+            }
+            System.out.println();
+
+            dan++;
+        }
     }
 
 }

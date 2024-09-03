@@ -13,13 +13,17 @@ public class Application {
 
         B_nestedFor b = new B_nestedFor();
 //        b.allGugudan();
-//        b.starPoint();
+//        b.starPoint();s
 //        b.row();
 //        b.modifyStarPoiny();
 //        b.diamond();
 
         C_while c = new C_while();
-        c.testWhileStatement();
-        c.whileExample();
+//        c.testWhileStatement();
+//        c.whileExample2();
+
+        D_dowhile d = new D_dowhile();
+//        d.testDoWhileStatement();
+        d.doWhileExample();
     }
 }

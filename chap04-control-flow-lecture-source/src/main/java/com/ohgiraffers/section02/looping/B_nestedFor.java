@@ -19,6 +19,7 @@ public class B_nestedFor {
      *   b*****
      *   *******  */
 
+    // 대칭 삼각형
     public void starPoint(){
         Scanner sc = new Scanner(System.in);
 
@@ -37,6 +38,7 @@ public class B_nestedFor {
         }
     }
 
+    // 대칭 삼각형 이해하기 쉽게 변형
     public void modifyStarPoiny(){
         Scanner sc = new Scanner(System.in);
 
@@ -71,6 +73,7 @@ public class B_nestedFor {
         System.out.println();
     }
 
+    // 역 삼각형
     public void reverseTriangle(){
         Scanner sc = new Scanner(System.in);
 
