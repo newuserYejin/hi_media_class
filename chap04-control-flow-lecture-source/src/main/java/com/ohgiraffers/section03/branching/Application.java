@@ -10,6 +10,8 @@ public class Application {
         B_continue b = new B_continue();
 //        b.testContinueStatement();
 //        b.testContinueStatement2();
-        b.testContinueGugudan();
+//        b.testContinueGugudan();
+//        b.test1();
+        b.test2();
     }
 }

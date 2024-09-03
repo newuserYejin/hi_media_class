@@ -47,5 +47,28 @@ public class B_continue {
         }
 
     }
+    
+    // 구구단 출력 단, 각 단의 수가 짝수인 경우 출력 생략
+    public void test1(){
+        for (int dan = 1; dan < 10; dan++){
+            for (int su = 1; su < 10 ; su++){
+                if (su %2 == 0){
+                    continue;
+                }
+                System.out.println(dan + " * " + su + " = " + dan * su);
+            }
+            System.out.println();
+        }
+    }
 
+    public void test2(){
+        for (int dan = 1; dan < 10; dan++){
+            for (int su = 1; su < 10 ; su++){
+                if (su %2 != 0){
+                    System.out.println(dan + " * " + su + " = " + dan * su);
+                }
+            }
+            System.out.println();
+        }
+    }
 }
