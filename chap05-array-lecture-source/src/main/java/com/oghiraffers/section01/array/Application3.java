@@ -23,7 +23,6 @@ public class Application3 {
             System.out.println(i);
         }
 
-
         for (char i : carr){
             System.out.println(i);
         }
