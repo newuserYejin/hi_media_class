@@ -29,6 +29,7 @@ public class Application10 {
          * 숫자를 입력하세요 : 27
          *
          * -- 출력 예시 --
+         * -- 출력 예시 --
          * b C a
          * */
 
