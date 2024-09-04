@@ -41,16 +41,26 @@ public class Application10 {
         int num = sc.nextInt();
         String result = "";
 
-//        for (int i =  0; i< str.length() ;i++){
-//            char c = str.charAt(i);
-//            if (c.i)
-//            if (str.charAt(i) != ' '){
-//                int ch = str.charAt(i) + num;
-//                result += (char)ch;
-//            } else{
-//                result += " ";
-//            }
-//        }
+        for (int i =  0; i< str.length() ;i++){
+            int ch;
+
+            if (num >= 26){
+                num -= 26;
+            }
+
+            if (str.charAt(i) != ' '){
+                if((Character.isUpperCase(str.charAt(i)) && str.charAt(i) + num > 90) ||
+                        (Character.isLowerCase(str.charAt(i)) && str.charAt(i) + num > 122)){
+                    ch = str.charAt(i) + num - 26;
+                    result += (char)ch;
+                } else {
+                    ch = str.charAt(i) + num;
+                    result += (char)ch;
+                }
+            } else{
+                result += " ";
+            }
+        }
 
         System.out.println("result = " + result);
     }
