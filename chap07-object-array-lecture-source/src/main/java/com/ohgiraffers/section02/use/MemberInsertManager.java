@@ -10,3 +10,14 @@ public class MemberInsertManager {
         }
     }
 }
+
+/*
+* class 분리 기준
+* 1. 반복 작업
+* 2. MVC
+*
+* 데이터 접근단 (DB)
+* 컨트롤러단 (서버, 백)
+* 서비스단 (프론트)
+*
+* */

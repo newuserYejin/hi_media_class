@@ -22,7 +22,6 @@ public class Application {
         * */
 
         // 이른 초기화
-
         EagerSingleton eager1 = EagerSingleton.getInstance();
         EagerSingleton eager2 = EagerSingleton.getInstance();
 

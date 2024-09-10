@@ -15,7 +15,8 @@ public class Application {
 
         UserDTO user3 = new UserDTO("user03","pass03","조조", LocalDateTime.now());
         System.out.println("user03" + user3.toString());
-
     }
 
 }
+
+
