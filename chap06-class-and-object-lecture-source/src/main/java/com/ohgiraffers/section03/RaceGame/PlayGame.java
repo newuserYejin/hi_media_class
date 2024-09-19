@@ -18,8 +18,7 @@ public class PlayGame {
         user2.setName(sc.nextLine());
 
         while (true) {
-            if (!(user2.isKeep() || user1.isKeep())){
-                return;
+77
             }else {
                 user1.Myturn();
                 if (user1.getPosition() == user2.getPosition()) {
